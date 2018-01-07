@@ -1,0 +1,81 @@
+html{
+	  background: steelblue;
+	  height: 100%;
+}
+body{
+	height: 100%;
+}
+.container{
+	margin: 30px auto;
+	padding: 0px;
+	min-height: 80%;
+	width: 640px;
+    border: tan solid 18px;
+    border-top: #bda27e solid 18px;
+    border-left: #b19876 solid 18px;
+    border-bottom: #c9ad86 solid 18px;
+    box-shadow: 0px 0px 6px 5px rgba(58, 18, 13, 0), 0px 0px 0px 2px #c2a782, 0px 0px 0px 4px #a58e6f, 3px 4px 8px 5px rgba(0, 0, 0, 0.5);
+    background-image: radial-gradient( circle at left 30%, rgba(34, 34, 34, 0.3), rgba(34, 34, 34, 0.3) 80px, rgba(34, 34, 34, 0.5) 100px, rgba(51, 51, 51, 0.5) 160px, rgba(51, 51, 51, 0.5)), linear-gradient( 215deg, transparent, transparent 100px, #222 260px, #222 320px, transparent), radial-gradient( circle at right, #111, rgba(51, 51, 51, 1));
+    background-color: #666;
+}
+
+
+h1{
+	text-align: center;
+	font-weight: normal;
+	margin: 0;
+	padding: 16px;
+	font-family: "Rock Salt";
+	color: white;
+	letter-spacing: 6px;
+	text-decoration: underline;
+}
+i{
+	color: white;
+	width: 10%;
+	text-align: center;
+	padding: 5px 0;
+	line-height: 10px;
+}
+span i:hover{
+	color: red;
+}
+input{
+	width: 90%;
+	box-sizing: border-box;
+	padding: 10px;
+	line-height: 20px;
+	padding-left: 40px;
+	background: none;
+	color: white;
+	font-size: 20px;
+	border: 10px solid rgba(0,0,0,0);
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+input:focus{
+	outline: none;
+}
+ul{
+	margin: 0px;
+	padding: 4px 0px;
+	list-style: none;
+}
+li{
+	padding: 1px 20px;
+	font-size: 20px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+}
+.completed{
+	text-decoration: line-through;
+	color: #666;
+}
+#add{
+	padding: 20px;
+	font-family: "Rock Salt";
+	font-size: 200%;
+	color: #666;
+	text-align: center;
+	letter-spacing: 10px;
+}
